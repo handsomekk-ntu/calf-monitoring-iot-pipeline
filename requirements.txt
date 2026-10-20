@@ -1,0 +1,4 @@
+# Backend (MQTT -> InfluxDB bridge)
+flask>=3.0
+paho-mqtt>=2.0
+influxdb-client>=1.40

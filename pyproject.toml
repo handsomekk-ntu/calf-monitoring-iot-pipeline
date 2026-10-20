@@ -1,0 +1,17 @@
+[project]
+name = "calf-monitoring-iot-pipeline"
+version = "1.0.0"
+description = "Edge-AI status pipeline: MQTT -> InfluxDB -> Grafana, with YOLOv8 training and NCNN export"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = ["integration: needs a running MQTT broker (set MQTT_TEST_PORT)"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]

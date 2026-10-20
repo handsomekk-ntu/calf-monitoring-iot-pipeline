@@ -1,0 +1,11 @@
+# Copy to data.yaml and point `path` at your dataset folder.
+# Expected layout (YOLO format):
+#   <path>/train/images, <path>/train/labels
+#   <path>/val/images,   <path>/val/labels
+path: ../datasets/calf_state
+train: train
+val: val
+
+names:
+  0: awake
+  1: asleep

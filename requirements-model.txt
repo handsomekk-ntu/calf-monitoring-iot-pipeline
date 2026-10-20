@@ -1,0 +1,2 @@
+# Training and NCNN export (run on a PC with a GPU)
+ultralytics>=8.3
